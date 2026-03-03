@@ -20,7 +20,10 @@
 <body>
     <!-- // Intro -->
     <header class="nameSummary">
-        <img src="your-picture.jpg" alt="Marlon Rios Profile Picture">
+        <div class = "content-wrap">
+            <img class="profile-image column-narrow" src="your-picture.jpg" alt="Marlon Rios Profile Picture">
+
+        <div class="column-wide">
         <h1>Marlon Rios</h1>
         <h2>Full-Stack Computer Science Student | IT Support Professional</h2>
         <p>Computer Science student experienced in building scalable and maintainable full stack web applications with React,
@@ -28,23 +31,29 @@
         caching/rate limiting, and HTML5 Canvas rendering. Known for attention to detail, clear documentation, and end-user empathy
         from IT support and game QA. Seeking Software Engineering, Frontend, FullStack, or IT internships and entry-level
         roles</p>
+        </div> <!--Column-wide closing tag-->
+        </div>
     </header>
     
     <main> 
         <!-- // Work Experience -->
         <section class="experience">
+            <div class = "content-wrap">
+
             <h2>Work Experience</h2>
 
             <!-- Job Details: copy this whole block to add more jobs -->
+            <div class="column-narrow">
             <h3>Administrative Intern II</h3>
             <p>City Of Los Angeles</p>
             <p>October 2022 - Present</p>
-            
+            </div> <!--Column-narrow closing tag-->
+
             <!-- Add as many paragraphs as you need. -->
+            <div class="column-wide">
             <p>Provide frontline IT support for the large Recreation and Parks department, troubleshooting technical issues
                 , managing user accounts and user devices. Improve internal processes by contributing to large scale hardware 
                 deployments and managing techincal and asset documentation.
-
             </p>
             
             <!-- This list can be deleted if you don't want to use it. -->
@@ -58,14 +67,18 @@
                 <li>Analyzed and streamlined IT asset workflows reconciling 100+ device records and improving replacement forecasting</li>
                 <li>Documented troubleshooting steps and resolutions to enable faster hand-offs and reduce repeat issues</li>
             </ul>
+            </div> <!--Column-wide closing tag-->
             <!-- end of Job Details block. -->
 
             <!-- Job Details: copy this whole block to add more jobs -->
+            <div class="column-narrow">
             <h3>Senior Game Tester</h3>
             <p>Good Gamer Group</p>
             <p>May 2021 - Present</p>
+            </div> <!--Column-narrow closing tag-->
             
             <!-- Add as many paragraphs as you need. -->
+            <div class="column-wide">
             <p>Evaluate pre release games for functionality, performance, and user experience. Provided detailed feeback
                 that helps development teams refine gameplay and design.
             </p>
@@ -79,13 +92,17 @@
                 <li>Brought player-focused insight to feature iterations, balancing technical feasibility with user experience.</li>
                 <li>Consistently invited back based on reliability and quality of contributions</li>
             </ul>
+            </div> <!--Column-wide closing tag-->
             <!-- end of Job Details block. -->
-            
+
+            </div> 
         </section>
 
 
         <!-- // Education -->
         <section class="education">
+            <div class = "content-wrap">
+
             <h2>Education</h2>
 
             <!-- School details: copy this whole block to add more schools. -->
@@ -93,25 +110,34 @@
             <p>B.S. in Computer Science</p>
             
             <!-- Add as many paragraphs as you need. -->
-            <p>Summary.</p>
+            <p>B.S. in Computer Science focused on software engineering, data structures, and full-stack web development.</p>
             <!-- End of school details. -->
+
+            </div>
         </section>
     </main>
     
     <!-- // Footer & contact info -->
     <footer class="contact">
+        <div class = "content-wrap">
+
         <h2>Let's Keep in Touch!</h2>
+        <div class="contact-info">
         
         <!-- Social media and contact links. Add or remove any networks. -->
         <div>
             <a href="mailto:email@example.com">MarlonRios@example.com</a>
-            <br>
+            
             <a href="https://github.com/Owlll-1" target="_blank">github.com/Owlll-1</a>
-            <br>
+            
             <a href="https://www.linkedin.com/in/marlon-rios/" target="_blank">LinkedIn</a>
         </div>
 
         <p>Copyright 2017 by Marlon Rios</p>
+
+        </div>
+
+        </div>
     </footer>
 </body>
 </html>
