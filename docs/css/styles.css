@@ -1,0 +1,67 @@
+/* Color Palette
+#355872
+#7AAACE
+#9CD5FF
+#F7F8F0
+*/
+
+/* Global styles 
+------------------------------------*/
+body {
+    background: #F7F8F0;
+    color: black;
+}
+
+h1, h2 {
+    font-family: "Merriweather", serif;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+p {
+    font-family: "Gelasio", serif;
+    font-size: 18px;
+}
+
+li {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Header & Footer 
+------------------------------------*/
+header, footer {
+    background-color: #355872;
+    padding: 20px;
+}
+
+a {
+    font-size: 16px;
+    color: black;
+}
+
+
+/* Work Experience
+------------------------------------*/
+section.experience {
+    background-color: #7AAACE;
+    padding: 20px;
+}
+
+
+/* Education
+------------------------------------*/
+section.education {
+    background-color: #9CD5FF;
+    padding: 20px;
+}
